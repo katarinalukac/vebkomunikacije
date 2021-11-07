@@ -2063,6 +2063,10 @@ header .header-content .main-mobile {
   }
 }
 
+.app-download > .download-links {
+  margin-bottom: 30px;
+}
+
 .app-download > .download-links > a:first-child {
   margin-right: 30px;
 }

@@ -562,18 +562,12 @@ header .nav-wrapper > .nav-button > button {
   max-width: 170px;
   width: 100%;
   margin-left: 55px;
+  color: #FFFFFF;
 }
 
 header .nav-wrapper > .nav-button > button:hover {
   background-color: #FFFFFF;
-}
-
-header .nav-wrapper > .nav-button > button:hover > a {
   color: #2500F9;
-}
-
-header .nav-wrapper > .nav-button > button > a {
-  color: #FFFFFF;
 }
 
 header .nav-wrapper > .hamburger {
@@ -679,13 +673,11 @@ header .header-content .main-text > .main-links > button {
   margin-right: 27px;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
+  color: #FFFFFF;
 }
 
 header .header-content .main-text > .main-links > button:hover {
   background-color: #FFFFFF;
-}
-
-header .header-content .main-text > .main-links > button:hover > a {
   color: #2500F9;
 }
 
@@ -708,10 +700,6 @@ header .header-content .main-text > .main-links > button:hover > a {
     padding: 20px 35px;
     margin: 0;
   }
-}
-
-header .header-content .main-text > .main-links > button > a {
-  color: #FFFFFF;
 }
 
 header .header-content .main-text > .main-links > a {
@@ -777,7 +765,7 @@ header .header-content .main-mobile {
   }
 }
 
-.app-sponsors > p {
+.app-sponsors > h4 {
   text-align: center;
   line-height: 1.5;
   margin-bottom: 35px;
@@ -1840,6 +1828,7 @@ header .header-content .main-mobile {
   text-align: center;
   border: none;
   border-radius: 50%;
+  color: #2500F9;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1848,10 +1837,6 @@ header .header-content .main-mobile {
     height: 80px;
     font-size: 30px;
   }
-}
-
-.app-client > .client-text > .client-ceo > .ceo-contact > button > a {
-  color: #2500F9;
 }
 
 .app-questions {
@@ -2037,14 +2022,14 @@ header .header-content .main-mobile {
   }
 }
 
-.app-download > h1 {
+.app-download > h2 {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 @media screen and (max-width: 414px) {
-  .app-download > h1 {
+  .app-download > h2 {
     font-size: 30px;
   }
 }
@@ -2075,6 +2060,10 @@ header .header-content .main-mobile {
   .app-download > .download-links > a:first-child {
     margin-right: 0;
   }
+}
+
+.app-download > .fb-like {
+  display: inline-block;
 }
 
 footer {
